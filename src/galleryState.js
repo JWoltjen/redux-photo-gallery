@@ -6,4 +6,6 @@ export const gallerySlice = createSlice({
         photos: [], 
         isLoading: false, 
     }
-})
+}); 
+
+export default gallerySlice.reducer; 
