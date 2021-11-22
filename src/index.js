@@ -5,10 +5,12 @@ import App from './App';
 
 import {Provider} from 'react-redux'
 import {configureStore} from '@reduxjs/toolkit'
-import { gallerySlice } from './galleryState';
+import galleryReducer from './galleryState';
 
 const store = configureStore({
-  reducer: {gallerySlice}
+  reducer: {
+    gallery: galleryReducer
+  }
 }); 
 
 ReactDOM.render(
