@@ -36,3 +36,9 @@ button {
   padding: 20px; 
   background: none; 
 }
+
+button:hover {
+  background-color: black; 
+  cursor: pointer; 
+  color: #FFF; 
+}
